@@ -1,0 +1,33 @@
+/* Resetting default margin and padding */
+body, h1, p {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    background-color: rgb(219, 218, 224);
+}
+
+.calculator {
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid #f50707;
+    border-radius: 45px;
+}
+.calculator input {
+    width: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.calculator button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+}
+.calculator #result {
+    margin-bottom: 20px;
+}
+.hr {
+    color:aqua;
+    font: 1em sans-serif;
+    margin-inline-end: 3 ;
+}
